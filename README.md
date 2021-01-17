@@ -2,11 +2,6 @@
 
 We like phones.
 
-## Requirements for joining
-
-Join the channel `#billingexcellence` on Freenode.
-
-
 ## How to submit your site
 
 **Add the webring links to your site first**, then fork this repo, add
