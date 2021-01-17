@@ -31,7 +31,6 @@ hot butter. Just make it yours.
 | Next site | `https://shady.tel/ring/next.html` |
 | Random site | `https://shady.tel/ring/random.html` |
 | List all sites | `https://shady.tel/ring` |
-| Join the ring | `https://shady.tel/ring/join.html` |
 
 The link will work out your position in the list and redirect visitors to the next site in the webring.
 
