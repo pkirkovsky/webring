@@ -4,28 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shadytel Webring</title>
     <meta name="description" content="Ring ring">
-    <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
-    <script src="/sites.js"></script>
-    <script src="/functions.js"></script>
+    <script src="./sites.js"></script>
+    <script src="./functions.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body x-data="sites = getSites()">
-    <h1>Shadytel Webring</h1>
-    <p>Ring ring.</p>
-    <div class="list">
-        <template x-for="(site, index) in sites" :key="index">
-            <a class="box" :href="site.url + '?ref=shadytelwebring'">
-                <span class="name" x-text="site.name"></span>
-                <span class="because" x-text="'HERE BECAUSE: ' + site.because"></span>
-            </a>
-        </template>
-    </div>
-    <p><a href="/join.html">Want to join?</a></p>
-    <a href="https://github.com/Shadytel/webring">
-        <img class="github"  src="/github.gif" alt="Join the Shadytel Webring on Github" height="100" width="100" />
-    </a>
+	<h1 style="height: 0.4in"><img src="/images/shadytel_logo.svg" class="logo"/> shadytel web ring</h1>
+	<div class="body">
+		<p>Ring ring.</p>
+		<ul>
+			<template x-for="(site, index) in sites" :key="index">
+				<li>
+					<a :href="site.url + '?ref=shadytelwebring'"><span x-text="site.name"></span></a>
+					&mdash;
+					<span class="tagline" x-text="site.tagline"></span>
+				</li>
+			</template>
+		</ul>
+
+		<h2>Want to join?</h2>
+		<p>If you are into telephones and billing, this might be for
+		you. Head over
+		to <a href="https://github.com/Shadytel/webring">github</a>
+		for instructions on how to submit your site.</p>
+	</div>
 </body>
 </html>
