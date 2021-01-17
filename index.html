@@ -2,8 +2,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weird Wide Webring</title>
-    <meta name="description" content="The web needs a little more weird. These sites are helping.">
+    <title>Shadytel Webring</title>
+    <meta name="description" content="Ring ring">
     <link rel="icon" type="image/png" href="/favicon.png" sizes="16x16" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="stylesheet" href="/style.css">
@@ -13,20 +13,19 @@
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
 </head>
 <body x-data="sites = getSites()">
-    <h1>Weird Wide Webring</h1>
-    <p>The web needs a little more weird. These sites are helping.</p>
+    <h1>Shadytel Webring</h1>
+    <p>Ring ring.</p>
     <div class="list">
         <template x-for="(site, index) in sites" :key="index">
-            <a class="box" :href="site.url + '?ref=weirdwidewebring'">
+            <a class="box" :href="site.url + '?ref=shadytelwebring'">
                 <span class="name" x-text="site.name"></span>
                 <span class="because" x-text="'HERE BECAUSE: ' + site.because"></span>
             </a>
         </template>
     </div>
     <p><a href="/join.html">Want to join?</a></p>
-    <a href="https://github.com/jackmcdade/weird-wide-webring">
-        <img class="github"  src="/github.gif" alt="Join the Weird Wide Webring on Github" height="100" width="100" />
+    <a href="https://github.com/Shadytel/webring">
+        <img class="github"  src="/github.gif" alt="Join the Shadytel Webring on Github" height="100" width="100" />
     </a>
-    <a id="hit-counter" href="https://app.usefathom.com/share/hrpuytbn/weirdwidewebring.net" target="_blank"></a>
 </body>
 </html>
