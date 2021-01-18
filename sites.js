@@ -9,4 +9,9 @@ let sites = [
 		url: "https://witch.spmh.us",
 		tagline: "i have no idea"
 	}
+	,{
+		name: "trmg",
+		url: "https://vofr.net",
+		tagline: "Only you can prevent toll fraud."
+	}
 ]
