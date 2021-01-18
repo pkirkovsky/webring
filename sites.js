@@ -18,5 +18,5 @@ let sites =
 		name: "trmg",
 		url: "https://vofr.net",
 		tagline: "Only you can prevent toll fraud."
-  }
+	}
 ]
