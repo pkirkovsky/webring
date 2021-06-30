@@ -19,4 +19,9 @@ let sites =
 		url: "https://vofr.net",
 		tagline: "Only you can prevent toll fraud."
 	}
+	,{
+		name: "DMS-100.net",
+		url: "http://www.dms-100.net",
+		tagline: "Adventures in setting up a lab DMS-100."
+	}
 ]
