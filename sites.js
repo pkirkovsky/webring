@@ -24,4 +24,9 @@ let sites =
 		url: "http://www.dms-100.net",
 		tagline: "Adventures in setting up a lab DMS-100."
 	}
+  ,{
+		name: "PlayaTel BBS",
+		url: "https://bbs.playa.tel",
+		tagline: "Another great service from your CO here at 7:30 & C"
+	}		 
 ]
